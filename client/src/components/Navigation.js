@@ -6,12 +6,14 @@ class Navigation extends React.Component {
     return (
       <div>
         <section className= "nav-container">
+        <h1>Islamic Center of Greater Lansing</h1>
+        <h2>Matrimonial Service</h2>
             <div className="ml-auto">
               <div>
-                <Link to="/portfolio" className="nav-link">PORTFOLIO</Link>
+                <Link to="/about" className="nav-link">ABOUT</Link>
               </div>
               <div>
-                <Link to="/investment" className="nav-link">INVESTMENT</Link>
+                <Link to="/apply" className="nav-link">APPLY</Link>
               </div>
               <div>
                 <Link to="/contact" className="nav-link">CONTACT</Link>
