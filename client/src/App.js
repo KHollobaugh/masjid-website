@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Apply from './pages/Apply';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
       <Navigation />
       <Route exact path = '/' component = {Home} />
+      <Route path = '/apply' component = {Apply} />
       <Route path = '/contact' component = {Contact} />
       <Footer />
       </div>
