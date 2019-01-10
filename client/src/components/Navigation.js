@@ -6,9 +6,12 @@ class Navigation extends React.Component {
     return (
       <div>
         <section className= "nav-container">
-        <h1>Islamic Center of Greater Lansing</h1>
-        <h2>Matrimonial Service</h2>
+        <div>
+            <h2>Matrimonial Service</h2>
+            <h1>Islamic Center of Greater Lansing</h1>
+        </div>
             <div className="ml-auto">
+            
               <div>
                 <Link to="/about" className="nav-link">ABOUT</Link>
               </div>
